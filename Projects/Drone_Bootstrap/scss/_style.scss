@@ -1,0 +1,301 @@
+/**************
+MOBILE FIRST
+**************/
+/*FONTS*/
+
+@font-face {
+  font-family: pfd;
+  src: url(../webfonts/proximanova-regular-webfont.woff);
+}
+
+@font-face {
+  font-family: pfdr;
+  src: url(../webfonts/proximanova-regular-webfont.woff);
+}
+
+/*VARIABELEN*/
+$baseFontColor: #eb304d;
+$baseFontColorSec: #b9bcd1;
+
+
+/*ModalBox*/
+.modal-body h4 {
+  color: $baseFontColor;
+  padding-top: 100px;
+  font-family: "Proxima Nova Condensed";
+
+  h6 {
+    color: $baseFontColorSec;
+    font-family: "Proxima Nova";
+  }
+}
+
+.rounded-circle {
+  position: relative;
+  text-align: center;
+  left: 0;
+  top: 75px;
+  z-index: 1;
+
+  img {
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+  }
+}
+
+.btn {
+  background-color: $baseFontColor;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  font-family: "Proxima Nova";
+  width: 120px;
+}
+
+/*BEGIN NAVIGATIE*/
+.navbar {
+  font-family: "Proxima Nova";
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+/*END NAVIGATIE*/
+
+/* Landing page "'film" content */
+
+.bg-img {
+  background-image: linear-gradient(to bottom left, rgba(224, 105, 0, 0.52), rgba(235, 48, 77, 0.70)),
+  url('../img/background.png');
+  height: 730px;
+}
+
+.film {
+  margin-top: 221px;
+  margin-bottom: 62px;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: #e15d32;
+  }
+}
+
+
+.muis {
+  margin-top: 150px;
+
+  p {
+    color: #BABDD2 !important;
+    margin-top: 18px;
+  }
+}
+
+.btn {
+  border-radius: 25px;
+
+}
+
+.btn-light {
+  background-color: white;
+  color: black;
+  font-family: "Proxima Nova";
+}
+
+.fa-play {
+  margin-right: 5px;
+}
+
+/* Section "Drones" content */
+
+.drone {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 115px;
+  margin-bottom: 96px;
+
+  img {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: "Proxima Nova Condensed";
+    background: linear-gradient(to bottom left, orange 30%, red 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: #848893;
+  }
+}
+
+.btn-primary {
+  background-color: blue;
+  margin-bottom: 100px;
+  width: 150px;
+}
+
+/* Section "Nature" content */
+
+.nature {
+  padding-top: 100px;
+
+  h1 {
+    font-size: 48px;
+    font-family: "Proxima Nova Condensed";
+    background: linear-gradient(to bottom left, orange 50%, red 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: #848893;
+  }
+
+  img {
+    size: 120px;
+  }
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border: 2px solid #848893;
+  color: #000000;
+  text-align: center;
+  font: 24px "Proxima Nova";
+  padding-top: 3px;
+}
+
+.drone3 img {
+  position: absolute;
+  width: 947px;
+  margin-top: -50px;
+}
+
+/* Section "Video" content*/
+
+.video-text {
+  padding-top: 150px;
+  padding-left: 100px;
+
+  h1 {
+    font-size: 48px;
+    font-family: "Proxima Nova Condensed";
+    background: linear-gradient(to bottom left, orange 50%, red 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.video-text2 {
+  padding-left: 100px;
+  padding-top: 150px;
+
+  h1 {
+    font-size: 48px;
+    font-family: "Proxima Nova Condensed";
+    background: linear-gradient(to bottom left, orange 50%, red 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Section "Footer" content*/
+
+.bg-image {
+  background-image: linear-gradient(to bottom left, rgba(224, 105, 0, 0.52), rgba(235, 48, 77, 0.70)),
+  url('../img/Layer 5.png');
+  height: 480px;
+}
+
+
+.home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  padding-top: 180px;
+}
+.home-newsletter .single h2 {
+  font-size: 48px;
+  color: white;
+  font-family: "Proxima Nova Condensed";
+}
+.home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .input-group {
+  width: 300px;
+  margin-left: 180px;
+}
+
+.home-newsletter ::placeholder {
+  color: white;
+}
+
+.home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: white;
+  font-size: 15px;
+  color: #d31325;
+}
+
+/*Google Map*/
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:70%;
+  width:100%;
+  position:absolute;
+}
+
+/*************************
+SCREENS LARGER THEN MOBILE
+**************************/
+/*sm*/
+@media (min-width: 576px) {
+}
+
+/*md*/
+@media (min-width: 768px) {
+}
+
+/*lg*/
+@media (min-width: 992px) {
+}
+
+/*xl*/
+@media (min-width: 1200px) {
+}
+
+
+
+
+

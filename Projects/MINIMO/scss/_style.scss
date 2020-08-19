@@ -1,0 +1,164 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.875rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#banner {
+  margin-bottom: 98px;
+}
+
+.photo {
+  margin-bottom: 22px;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-bottom: 35px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+h6 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 29px;
+}
+
+.section1 {
+  margin-bottom: 135px;
+}
+
+.newsletter {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 104px;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-fluid {
+  margin-left: 200px;
+}
+
+.newsletter h6 {
+  margin-bottom: 0;
+}
+
+div.more {
+  text-align: center;
+}
+
+div.more a {
+  color: #626262;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+footer {
+  height: 100px;
+  background: #f0f0f0;
+  margin-top: 70px;
+  padding: 50px;
+}
+
+footer p {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+footer img {
+  margin: 5px;
+}
+
+
+footer a {
+  color: black;
+  padding: 5px;
+}
+
+/* photodiary2 */
+
+.photodiary2 p {
+  margin-bottom: 45px;
+}
+
+.photodiary2 img {
+  margin-bottom: 45px;
+}
+
+.photodiary3 p {
+  padding: 20px;
+}
+
+.socialmedia {
+  display: flex;
+}
+
+.socialmedia a {
+  margin-left: 10px;
+  color: #626262;
+}
+
+.like {
+  background-color: #f0f0f0;
+  width: 100%;
+  padding: 100px;
+
+;}
+
+.like h6 {
+  margin-left: 20px;
+
+}
+
+.like img {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.winter {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 600px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 1200px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
